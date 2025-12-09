@@ -9,7 +9,7 @@ import os
 # -------------------------------
 BACKUP_DIR = "/backups/virtualhosts/"
 DEST_DIR = "/www/virtualhosts/"
-LOGFILE = "/var/log/python-restore.log"
+LOGFILE = "/home/student/python-restore.log"
 
 # Make sure destination exists
 os.makedirs(DEST_DIR, exist_ok=True)
@@ -56,3 +56,4 @@ def run_restore():
 
 if __name__ == "__main__":
     run_restore()
+
