@@ -1,0 +1,3 @@
+0 1 * * * /usr/bin/python3 /path/to/backup.py #This is for every day at 1 am
+
+* * * * * /usr/bin/python3 /path/to/backup.py #This is for every minute, it goes minute, hour, day of month, month of year, day of the week I believe
