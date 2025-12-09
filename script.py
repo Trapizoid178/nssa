@@ -9,7 +9,7 @@ import os
 # -------------------------------
 SOURCE = "/www/virtualhosts/"
 DEST = "/backups/virtualhosts/"
-LOGFILE = "/var/log/python-backup.log"
+LOGFILE = "/home/student/python-backup.log"
 
 # Make sure backup destination exists
 os.makedirs(DEST, exist_ok=True)
@@ -56,4 +56,5 @@ def run_backup():
     log("-------------------------------")
 
 if __name__ == "__main__":
+
     run_backup()
